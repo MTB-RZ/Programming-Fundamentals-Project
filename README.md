@@ -64,3 +64,55 @@ This project was mainly made to practice Programming Fundamentals concepts, incl
 - Modular programming using functions
 
 - We were not allowed to use the string class or built-in string functions, so everything was done using character arrays and manual loops.
+
+# Data Storage
+
+Patient records are stored in a text file called:
+
+- Hospital.txt
+
+
+Each record is stored in this format:
+
+Name    Address    BloodGroup
+
+Hospital.txt:
+
+Ali Khan    Lahore    B+
+Ahmed Raza  Karachi   O+
+Sara Malik  Islamabad A+
+
+
+The program reads this file when it starts and loads the records into dynamic arrays.
+
+# Some Additional Things Implemented
+
+While building this project I also added a few small things to make the program a bit cleaner.
+
+- Menu Input Validation
+
+- - The program checks if the user enters a valid option between 1 and 5.
+
+- Blood Group Validation
+
+- -When admitting a patient, the program checks if the blood group is valid.
+    Accepted types are:
+
+    A+, A-, B+, B-, O+, O-, AB+, AB-
+
+- Name Formatting
+
+- - Patient names are automatically formatted so the first letter of each word is capitalized.
+
+    Example:
+
+    ali khan -> Ali Khan
+    AHMAD RAZA -> Ahmad Raza
+
+- Manual Record Deletion
+
+- - When a patient is discharged, the program removes the record by shifting the array data and then rewriting the file.
+
+- Dynamic Memory Cleanup
+
+- - All dynamically allocated memory is properly released using delete[] before the program exits.
