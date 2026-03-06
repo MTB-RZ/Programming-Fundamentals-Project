@@ -91,18 +91,18 @@ While building this project I also added a few small things to make the program 
 
 - Menu Input Validation
 
-- - The program checks if the user enters a valid option between 1 and 5.
+      - The program checks if the user enters a valid option between 1 and 5.
 
 - Blood Group Validation
 
-- - When admitting a patient, the program checks if the blood group is valid.
+      - When admitting a patient, the program checks if the blood group is valid.
     Accepted types are:
 
     A+, A-, B+, B-, O+, O-, AB+, AB-
 
 - Name Formatting
 
-- - Patient names are automatically formatted so the first letter of each word is capitalized.
+      - Patient names are automatically formatted so the first letter of each word is capitalized.
 
     Example:
 
@@ -111,11 +111,11 @@ While building this project I also added a few small things to make the program 
 
 - Manual Record Deletion
 
-- - When a patient is discharged, the program removes the record by shifting the array data and then rewriting the file.
+      - When a patient is discharged, the program removes the record by shifting the array data and then rewriting the file.
 
 - Dynamic Memory Cleanup
 
-- - All dynamically allocated memory is properly released using delete[] before the program exits.
+      - All dynamically allocated memory is properly released using delete[] before the program exits.
 
 # Purpose of the Project
 
