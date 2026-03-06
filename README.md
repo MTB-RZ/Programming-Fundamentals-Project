@@ -95,7 +95,7 @@ While building this project I also added a few small things to make the program 
 
 - Blood Group Validation
 
-- -When admitting a patient, the program checks if the blood group is valid.
+- - When admitting a patient, the program checks if the blood group is valid.
     Accepted types are:
 
     A+, A-, B+, B-, O+, O-, AB+, AB-
@@ -116,3 +116,17 @@ While building this project I also added a few small things to make the program 
 - Dynamic Memory Cleanup
 
 - - All dynamically allocated memory is properly released using delete[] before the program exits.
+
+# Purpose of the Project
+
+This project was mainly made as part of a Programming Fundamentals course to practice:
+
+- working with arrays and pointers
+
+- dynamic memory allocation
+
+- file processing
+
+- writing modular C++ programs
+
+It’s a simple console program but it helped in understanding how data can be stored, searched, modified, and persisted using files.
