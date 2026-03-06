@@ -49,18 +49,18 @@ Closes the system.
 
 This project was mainly made to practice Programming Fundamentals concepts, including:
 
-Dynamic Memory Allocation (new / delete)
+- Dynamic Memory Allocation (new / delete)
 
-Double pointers (char**)
+- Double pointers (char**)
 
-File handling (ifstream, ofstream)
+- File handling (ifstream, ofstream)
 
-Manual string handling using character arrays
+- Manual string handling using character arrays
 
-Searching records using character comparison
+- Searching records using character comparison
 
-Input validation
+- Input validation
 
-Modular programming using functions
+- Modular programming using functions
 
-We were not allowed to use the string class or built-in string functions, so everything was done using character arrays and manual loops.
+- We were not allowed to use the string class or built-in string functions, so everything was done using character arrays and manual loops.
