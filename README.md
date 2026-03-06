@@ -74,7 +74,7 @@ Patient records are stored in a text file called:
 
 Each record is stored in this format:
 
-Name    Address    BloodGroup
+Name      Address      BloodGroup
 
 Hospital.txt:
 
@@ -106,8 +106,8 @@ While building this project I also added a few small things to make the program 
 
     Example:
 
-    ali khan -> Ali Khan
-    AHMAD RAZA -> Ahmad Raza
+         ali khan -> Ali Khan
+        AHMAD RAZA -> Ahmad Raza
 
 - Manual Record Deletion
 
